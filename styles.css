@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    max-width: auto;
+box-sizing: border-box;
+margin:0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-container1  {
+    border: solid black;
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+
+p{
+text-align: center;
+display: flex;
+margin: auto;
+color: rgb(47, 177, 221);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.who{
+    margin-top: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: black;
+}
+
+
+.dots {
+    display: flex ;
+    margin: auto;
+    margin-bottom: 0;
+}
